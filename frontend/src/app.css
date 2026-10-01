@@ -134,3 +134,76 @@ td {
   font-size: 0.875rem;
   color: #475569;
 }
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.navbtn {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.navbtn.active {
+  background: #0369a1;
+  color: #fff;
+}
+
+.hint {
+  color: #64748b;
+  font-size: 0.8rem;
+  margin: 0.4rem 0 0;
+}
+
+.linkbtn {
+  background: none;
+  color: #0369a1;
+  padding: 0.15rem 0.35rem;
+  font-size: 0.82rem;
+}
+
+.inlinefix {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.inlinefix input {
+  min-width: 90px;
+  padding: 0.3rem 0.45rem;
+}
+
+.inlinefix button {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+.fixerr td {
+  color: #b91c1c;
+  font-size: 0.82rem;
+}
+
+.cmp {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.cmphead {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.cmp tr.online {
+  background: #f0f9ff;
+}
+
+.cmp table {
+  font-size: 0.84rem;
+}
