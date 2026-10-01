@@ -133,4 +133,60 @@ td {
 .user {
   font-size: 0.875rem;
   color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  gap: 0.4rem;
+  margin-right: 0.75rem;
+}
+
+.navbtn {
+  background: #e2e8f0;
+  color: #334155;
+  padding: 0.4rem 0.9rem;
+}
+
+.navbtn.active {
+  background: #0369a1;
+  color: #fff;
+}
+
+.h2 {
+  margin: 0 0 0.9rem;
+  font-size: 1.1rem;
+}
+
+.readonly-note {
+  margin: 0.25rem 0 0;
+  color: #854d0e;
+  background: #fef9c3;
+  border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.875rem;
+}
+
+button.mini {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.78rem;
+}
+
+.inline-edit {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.inline-edit input {
+  min-width: 96px;
+  padding: 0.3rem 0.45rem;
+}
+
+.mini-msg {
+  margin: 0.25rem 0 0;
+  font-size: 0.75rem;
+  max-width: 220px;
 }
